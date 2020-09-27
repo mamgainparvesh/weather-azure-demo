@@ -1,0 +1,7 @@
+<div class="weather-section">
+    <h3>Search for Weather</h3>
+    <input (keyup)="onKey($event)">
+    <button (click)="fetch()">Fetch</button>
+    <h3 class="details">Weather Details:</h3>
+    {{result}}
+  </div>
